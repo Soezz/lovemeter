@@ -63,6 +63,7 @@ def load():
         stdout.write('\r  [\x1b[1;36m' + l[z % len(l)] + a[z % len(a)] + g[z % len(g)] + i[z % len(i)] + n[z % len(n)] + P[z % len(P)] + r[z % len(r)] + P[z % len(P)] + r[z % len(r)] + u[z % len(u)] + h[z % len(h)] + '\x1b[1;37m]')
         stdout.flush()
 load()
+print
 time.sleep(3)
 print "\x1b[1;91mMundur Bos!!!, Dia Dah Punya Pasangan!!!"
 time.sleep(2)
