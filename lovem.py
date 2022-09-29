@@ -50,6 +50,19 @@ def load():
         
 load()
 print
+def load():
+    l = '10% '
+    a = '30%'
+    g = '50% '
+    i = '80% '
+    n = '81% '
+    P = ' 82% '
+    r = ' 40% '
+    for z in range(90):
+        waktu(0.1)
+        stdout.write('\r  [\x1b[1;36m' + l[z % len(l)] + a[z % len(a)] + g[z % len(g)] + i[z % len(i)] + n[z % len(n)] + P[z % len(P)] + r[z % len(r)] + P[z % len(P)] + r[z % len(r)] + u[z % len(u)] + h[z % len(h)] + '\x1b[1;37m]')
+        stdout.flush()
+load()
 time.sleep(3)
 print "\x1b[1;91mMundur Bos!!!, Dia Dah Punya Pasangan!!!"
 time.sleep(2)
@@ -79,19 +92,5 @@ def load():
         
 load()
 time.sleep(1)
-print
-def load():
-    l = '10% '
-    a = '30%'
-    g = '50% '
-    i = '80% '
-    n = '81% '
-    P = ' 82% '
-    r = ' 40% '
-    for z in range(90):
-        waktu(0.1)
-        stdout.write('\r  [\x1b[1;36m' + l[z % len(l)] + a[z % len(a)] + g[z % len(g)] + i[z % len(i)] + n[z % len(n)] + P[z % len(P)] + r[z % len(r)] + P[z % len(P)] + r[z % len(r)] + u[z % len(u)] + h[z % len(h)] + '\x1b[1;37m]')
-        stdout.flush()
-load()
 print 
 print ("\x1b[1;93mERROR!!!!!!!");
